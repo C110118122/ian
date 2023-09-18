@@ -7,9 +7,9 @@
 -[] to do list
 ```python
 s="python syntax highlight"
-print s
+print (s)
 ```
 ```javascript
 var s="javascript syntax highlight"
-print (s)
+alert (s)
 ```

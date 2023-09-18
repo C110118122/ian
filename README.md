@@ -7,8 +7,8 @@
 
 ![NKUST](nkust.png "高科大")
 
--[] to do list
--[x] to do list
+- [ ] to do list
+- [x] to do list
 
 ```python
 s = "python syntax highlight"

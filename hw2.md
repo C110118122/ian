@@ -28,5 +28,22 @@ gantt
     
 
 # pert 圖
+```graphviz
+digraph {
+	node[shape=record];
+	rankdir="LR";
+    no1 [label = "研擬計畫   | 編號:1 | 開始:第1天 | 結束:第2天| 需時:1天"]
+    no2 [label = "任務分配     | 編號:2 | 開始:第2天 | 結束:第6天| 需時:4天"]
+    no2->no1
+    no3 [label = "取得硬體 | 編號:3 | 開始:第2天 | 結束:第19天 | 需時:17天"]
+    no3->no1
+    no4 [label = "安排後勤 | 編號:4 | 開始:第6天 | 結束:第67天 | 需時:70天"]
+    {rank=same;no3 no4}
+    no2->no3
+    no2->no4
+    no5 [label = "宣告訓練 | 編號:5 | 開始:第66天 | 結束:第95天 | 需時:30天"]
+    no3->no5
+    no4->no5
+}
 
 # 關鍵路徑

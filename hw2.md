@@ -25,7 +25,7 @@ gantt
     使用者訓練     : a10 , after a7,20d
     section 任務11
     使用者測試     : a11 , after a9 , 25d
-    
+```
 
 # pert 圖
 ```graphviz
@@ -47,7 +47,8 @@ digraph {
     no10 [label = "使用者訓練  | 編號:10 | 開始:第146天 | 結束:第166天 | 需時:20天"]
     no11 [label = "使用者測試 | 編號:11 | 開始:第166天 | 結束:第191天 | 需時:25天"]
 }
-
+```
+```graphviz
 digraph {
 	node[shape=record];
 	rankdir="LR";
@@ -63,4 +64,5 @@ digraph {
     no3->no5
     no4->no5
 }
+```
 # 關鍵路徑
